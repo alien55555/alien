@@ -1,0 +1,83 @@
+
+
+
+/* Definindo a imagem de fundo */
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: url('https://cf-img-a-in.tosshub.com/sites/visualstory/wp/2023/11/alien-life-scaled.jpeg?size=*:900') no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+}
+
+/* Texto no topo */
+.top-text {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 36px;
+    text-align: center;
+}
+
+/* Container do formulário de login */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+/* Caixa de login */
+.login-box {
+    background: rgba(0, 0, 0, 0.7); /* Fundo transparente */
+    padding: 40px;
+    border-radius: 10px;
+    width: 300px;
+    color: white;
+    text-align: center;
+}
+
+/* Estilo dos campos de entrada */
+.textbox {
+    margin-bottom: 20px;
+}
+
+.textbox input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+/* Estilo do botão de envio */
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #252525;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+input[type="submit"]:hover {
+    background-color: #727272;
+}
+
+/* Texto no meio da página */
+.middle-text {
+    position: 500;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(173, 0, 0);
+    font-size: 24px;
+    text-align: center;
+}
